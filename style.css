@@ -124,10 +124,16 @@ h1, h2, h3, h4 {
 p {
     font-family: "Raleway";
 }
-
+.handcrafted p{
+font-weight: lighter;
+line-height: 2rem;
+margin: 0 7rem;
+}
+.handcrafted h2{
+    font-weight: lighter
+}
 .container{
     max-width: 600px;
-    background: yellow;
     margin: 0px auto;
     text-align: center;
 
