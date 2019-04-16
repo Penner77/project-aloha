@@ -138,17 +138,22 @@ p {
 }
 /* CLOTHING CATEGORY BOXES SECTION*/
 
+/*.clothing-categories {
+    display: flex;
+
+}
+*/
 .mens {
     background: url(images/mens-category.jpg);
-    background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
   }
   .mens {
     text-align: center;
-    height: 400px;
-    max-width: 1240px;
+    width: 100vw;
+    height: 50vw;
     position: relative;
+    max-width: 1240px;
   }
   .trends {
     background: url(images/trends-category.jpg);
@@ -197,15 +202,15 @@ p {
   }
   .womens {
     background: url(images/womens-category.jpg);
-    background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
   }
   .womens {
     text-align: center;
-    height: 400px;
-    max-width: 1240px;
+    width: 100vw;
+    height: 50vw;
     position: relative;
+    max-width: 1240px;
   }
 
 
