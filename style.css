@@ -1,5 +1,4 @@
 *{
-    border: 1px dashed grey;
     box-sizing: border-box;
     /* margin: 0; */
    }
@@ -28,7 +27,6 @@ img {
 .logo{
     display: flex;
     max-width: 200px;
-    margin: auto;
 
 }
 
@@ -78,7 +76,7 @@ hr {
   
   }
   .cart {
-    max-width: 100px;;
+    max-width: 100px;
     order:-1;
     width: 50%;
     display: flex;
@@ -135,33 +133,30 @@ p {
 }
 /* CLOTHING CATEGORY BOXES SECTION*/
 
-/*.clothing-categories {
+.clothing-categories {
     display: flex;
-
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
-*/
+
 .mens {
     background: url(images/mens-category.jpg);
     background-repeat: no-repeat;
     background-size: contain;
-  }
-  .mens {
     text-align: center;
     width: 100vw;
     height: 50vw;
-    position: relative;
-    max-width: 1240px;
+    flex-grow: 2;
   }
   .trends {
     background: url(images/trends-category.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; 
-  }
-  .trends {
     text-align: center;
     width: 50vw;
     height: 50vw;
+    flex-grow: 1;
   }
 
 .glasses {
@@ -169,45 +164,40 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; 
-}
-.glasses {
   text-align: center;
   width: 50vw;
   height: 50vw;
+    flex-grow: 1;
 }
 .sale {
     background: url(images/sale-category.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; 
-  }
-  .sale {
     text-align: center;
     width: 50vw;
     height: 50vw;
+    flex-grow: 1;
   }
   .bags {
     background: url(images/bags-category.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; 
-  }
-  .bags {
     text-align: center;
     width: 50vw;
     height: 50vw;
+    flex-grow: 1;
   }
   .womens {
     background: url(images/womens-category.jpg);
     background-repeat: no-repeat;
     background-size: contain;
-  }
-  .womens {
     text-align: center;
     width: 100vw;
     height: 50vw;
     position: relative;
-    max-width: 1240px;
+    flex-grow: 2;
   }
 
 
