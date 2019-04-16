@@ -1,7 +1,9 @@
 *{
     border: 1px dashed grey;
-    margin: 0;
+    box-sizing: border-box;
+    /* margin: 0; */
    }
+
 .logo{
 /*position: absolute;
 top: 0% */
@@ -21,6 +23,7 @@ img {
     max-height: 200px;
     max-width: 600px;
     justify-content: space-between;
+    margin: auto;
 
 }
 .logo{
@@ -166,15 +169,25 @@ p {
     
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+
 
 
 }
 footer{
     background-color: gray;
 }
+
+.social, .contact {
+    width: 100%;
+    text-align: center;
+}
 .social{
     max-width: 400px;
     margin: 0 auto;
+}
+.social span {
+    display: none;
 }
 .social li{
     list-style: none;
@@ -207,4 +220,13 @@ footer{
     display: inline;
 }
  */
- @media
+ @media screen and (min-width:600px){
+    .social span {
+        display: inline-block;
+    }
+
+    .social, .contact {
+        width: 50%;
+        text-align: left;
+    }
+ }
