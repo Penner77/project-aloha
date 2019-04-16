@@ -1,0 +1,199 @@
+*{
+    border: 1px dashed grey;
+    margin: 0;
+   }
+.logo{
+/*position: absolute;
+top: 0% */
+
+   /* width: 20%; /* scale the logo */
+    /*min-width: 200px; 
+    max-width: 200px;/* but make sure it's at least 200px */
+  
+}
+img {
+    max-width: 100%;
+}
+.header{
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    max-height: 200px;
+    max-width: 600px;
+    justify-content: space-between;
+
+}
+.logo{
+    display: flex;
+    max-width: 200px;
+    margin-left: 2%;
+
+}
+
+.logo {
+    order: -2;
+    width: 50%
+
+}
+
+hr {
+    color: rgb(5, 5, 5);
+    size: 5px;
+}
+
+.site-nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0 0 0 0;
+}
+
+.site-nav li {
+    /* display: flex;
+    flex-direction: row;
+    flex-grow: 1; */
+    /* width: 100%; */
+    /*object-position: 1rem;
+    padding: 0 .5% 0 .5%;*/
+    
+}
+ 
+.primary-nav {
+    order: 0;
+    width: 100%;
+
+}
+
+.primary-nav a {
+    color: red;
+    text-decoration: none;
+   display: inline-block;
+    padding: 1.625 1 1 1rem;
+}
+.cart {
+    /*text-align: right;*/
+    max-width: 100px;
+  
+  }
+  .cart {
+    order:-1;
+    width: 50%;
+    display: flex;
+
+    margin-left: 17%;
+    margin-right: 2%
+ 
+  }
+
+/* Banner Section */
+
+.banner{
+   
+    text-align: center;
+    font-size: large;
+    margin: 10px 10px;
+    height: 400px;
+    max-width: 1240px;
+    position: relative;
+     }
+.banner {
+        background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(images/banner-girl.png), url(images/flower-bkgd.jpg);
+        background-position: center, center 60px, center;
+        background-repeat: no-repeat,no-repeat, repeat;
+        background-size: contain, contain, cover;
+      }
+     .banner_text{
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%, -50%);
+         color: white;
+
+     }
+h4 {
+    text-transform: uppercase;
+}
+
+body{
+        font-family: "Raleway", Arial, sans-serif;
+}
+
+h1, h2, h3, h4 {
+
+    font-family: "Playfair Display";
+
+
+}
+p {
+    font-family: "Raleway";
+}
+
+.container{
+    max-width: 600px;
+    background: yellow;
+    margin: 0px auto;
+    text-align: center;
+
+}
+
+/* Footer Section */
+
+.aloha-footer{
+    
+    display: flex;
+    justify-content: space-between;
+
+
+}
+footer{
+    background-color: gray;
+}
+.social{
+    max-width: 400px;
+    margin: 0 auto;
+}
+.contact{
+    max-width: 400px;
+    margin: 0 auto;  
+}
+
+/*
+.contact {
+    display: block;
+    background-color: black;
+    font-display: white;
+
+}
+.social li {
+    display: block;
+    background-color: black;
+    font-display: white;
+
+}*/
+.signup{
+    background: url(images/wave-bkgd.jpg);
+    background-position: center;
+    background-image: image();
+    background-size: contain;
+    height: 400px;
+    width: 1240px;
+
+}
+.signup{
+    text-align: center;
+    margin: 10px 10px;
+    height: 400px;
+    width: 1240px;
+    position: relative
+}
+.signup_text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* .products{
+    display: inline;
+}
+ */
+ @media
