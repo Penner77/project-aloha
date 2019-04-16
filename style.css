@@ -136,6 +136,78 @@ p {
     text-align: center;
 
 }
+/* CLOTHING CATEGORY BOXES SECTION*/
+
+.mens {
+    background: url(images/mens-category.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .mens {
+    text-align: center;
+    height: 400px;
+    max-width: 1240px;
+    position: relative;
+  }
+  .trends {
+    background: url(images/trends-category.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+  }
+  .trends {
+    text-align: center;
+    width: 50vw;
+    height: 50vw;
+  }
+
+.glasses {
+  background: url(images/glasses-category.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+.glasses {
+  text-align: center;
+  width: 50vw;
+  height: 50vw;
+}
+.sale {
+    background: url(images/sale-category.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+  }
+  .sale {
+    text-align: center;
+    width: 50vw;
+    height: 50vw;
+  }
+  .bags {
+    background: url(images/bags-category.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+  }
+  .bags {
+    text-align: center;
+    width: 50vw;
+    height: 50vw;
+  }
+  .womens {
+    background: url(images/womens-category.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .womens {
+    text-align: center;
+    height: 400px;
+    max-width: 1240px;
+    position: relative;
+  }
+
 
 /* SIGNUP SECTION*/
 
