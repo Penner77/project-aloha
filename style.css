@@ -23,13 +23,12 @@ img {
     max-height: 200px;
     max-width: 600px;
     justify-content: space-between;
-    margin: auto;
 
 }
 .logo{
     display: flex;
     max-width: 200px;
-    margin-left: 2%;
+    margin: auto;
 
 }
 
@@ -79,12 +78,10 @@ hr {
   
   }
   .cart {
+    max-width: 100px;;
     order:-1;
     width: 50%;
     display: flex;
-
-    margin-left: 17%;
-    margin-right: 2%
  
   }
 
