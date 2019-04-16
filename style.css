@@ -136,6 +136,30 @@ p {
 
 }
 
+/* SIGNUP SECTION*/
+
+.signup{
+    background: url(images/wave-bkgd.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: repeat;
+    
+
+}
+.signup{
+    text-align: center;
+    margin: 10px 10px;
+    height: auto;
+    max-width: 600px;
+    position: relative;
+}
+.signup_text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 /* Footer Section */
 
 .aloha-footer{
@@ -152,6 +176,15 @@ footer{
     max-width: 400px;
     margin: 0 auto;
 }
+.social li{
+    list-style: none;
+
+}
+/*
+.social li i{
+    padding-right: 0.25em;
+}*/
+ 
 .contact{
     max-width: 400px;
     margin: 0 auto;  
@@ -170,28 +203,6 @@ footer{
     font-display: white;
 
 }*/
-/* SIGNUP SECTION*/
-
-.signup{
-    background: url(images/wave-bkgd.jpg);
-    background-position: contain;
-    background-size: cover;
-    background-repeat: no-repeat;
-
-}
-.signup{
-    text-align: center;
-    margin: 10px 10px;
-    height: auto;
-    max-width: 600px;
-    position: relative;
-}
-.signup_text{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
 /* .products{
     display: inline;
 }
