@@ -170,21 +170,21 @@ footer{
     font-display: white;
 
 }*/
+/* SIGNUP SECTION*/
+
 .signup{
     background: url(images/wave-bkgd.jpg);
-    background-position: center;
-    background-image: image();
-    background-size: contain;
-    height: 400px;
-    width: 1240px;
+    background-position: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
 
 }
 .signup{
     text-align: center;
     margin: 10px 10px;
-    height: 400px;
-    width: 1240px;
-    position: relative
+    height: auto;
+    max-width: 600px;
+    position: relative;
 }
 .signup_text{
     position: absolute;
