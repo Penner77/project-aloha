@@ -22,6 +22,7 @@ img {
     max-height: 200px;
     max-width: 600px;
     justify-content: space-between;
+    margin-left: 2px;
 
 }
 .logo{
@@ -138,6 +139,23 @@ p {
     justify-content: space-between;
     flex-wrap: wrap;
 }
+.clothing-categories a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+/* the selector > will only get the first level of chld elements and not go further
+example if you had more divs nested it would only affect the children */
+/* .clothing-categories > div {
+    border: 2px solid white;
+} */
+.clothing-categories > div {
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .mens {
     background: url(images/mens-category.jpg);
@@ -147,6 +165,7 @@ p {
     width: 100vw;
     height: 50vw;
     flex-grow: 2;
+    /* margin-bottom: 1rem; */
   }
   .trends {
     background: url(images/trends-category.jpg);
@@ -157,6 +176,7 @@ p {
     width: 50vw;
     height: 50vw;
     flex-grow: 1;
+    /* margin-bottom: 1rem; */
   }
 
 .glasses {
@@ -168,6 +188,7 @@ p {
   width: 50vw;
   height: 50vw;
     flex-grow: 1;
+    /* margin-bottom: 1rem; */
 }
 .sale {
     background: url(images/sale-category.jpg);
@@ -178,6 +199,7 @@ p {
     width: 50vw;
     height: 50vw;
     flex-grow: 1;
+   
   }
   .bags {
     background: url(images/bags-category.jpg);
@@ -188,6 +210,7 @@ p {
     width: 50vw;
     height: 50vw;
     flex-grow: 1;
+    
   }
   .womens {
     background: url(images/womens-category.jpg);
@@ -198,6 +221,7 @@ p {
     height: 50vw;
     position: relative;
     flex-grow: 2;
+    /* margin-top: 1rem */
   }
 
 
