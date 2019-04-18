@@ -261,7 +261,6 @@ example if you had more divs nested it would only affect the children */
 }
 .signup_text{
     position: absolute;
-    line-height: 2.5%;
     color: white;
     top: 50%;
     left: 50%;
@@ -269,14 +268,17 @@ example if you had more divs nested it would only affect the children */
 }
 .signup p{
     color: white;
-    padding-left: 4em;
-    padding-right: 4em;
+    line-height: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+
     
 }
 .signup h2{
     color: white;
     outline-color: gray;
-    padding-top: 4em;
+    font-size: 2.5em;
+    padding-top: 1.5em;
 
 }
 .signup h2 span{
