@@ -127,10 +127,21 @@ p {
 .handcrafted p{
 font-weight: lighter;
 line-height: 2rem;
+text-align: center;
 margin: 0 7rem;
 }
 .handcrafted h2{
-    font-weight: lighter
+
+    text-align: center;
+}
+
+.handcrafted h2 span{
+    font-weight: lighter;
+    font-style: italic;
+}
+.handcrafted{
+    margin-top: 5em;
+    margin-bottom: 5em;
 }
 .container{
     max-width: 600px;
@@ -250,9 +261,22 @@ example if you had more divs nested it would only affect the children */
 }
 .signup_text{
     position: absolute;
+    color: white;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+.signup p{
+    color: white;
+}
+.signup h2{
+    color: white;
+    outline-color: gray;
+
+}
+.signup h2 span{
+    font-weight: lighter;
+    font-style: italic;
 }
 
 /* Footer Section */
@@ -267,9 +291,11 @@ example if you had more divs nested it would only affect the children */
 
 }
 footer{
-    background-color: gray;
+    background-color: darkgray;
 }
-
+.contact_text {
+    color: white;
+}
 .social, .contact {
     width: 100%;
     text-align: center;
