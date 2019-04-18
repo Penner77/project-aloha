@@ -271,12 +271,13 @@ example if you had more divs nested it would only affect the children */
     line-height: 2em;
     padding-left: 1em;
     padding-right: 1em;
+    padding-bottom: 1em;
 
     
 }
 .signup h2{
     color: white;
-    outline-color: gray;
+    text-emphasis-color: gray;
     font-size: 2.5em;
     padding-top: 1.5em;
 
@@ -285,6 +286,7 @@ example if you had more divs nested it would only affect the children */
     font-weight: lighter;
     font-style: italic;
 }
+
 
 /* Footer Section */
 
