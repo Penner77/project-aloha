@@ -286,7 +286,11 @@ example if you had more divs nested it would only affect the children */
     font-weight: lighter;
     font-style: italic;
 }
+.form-container{
+    position: relative;
+    width: 50%;
 
+}
 input {
     -webkit-appearance: textfield;
     background-color: white;
@@ -301,7 +305,13 @@ input {
   width: 400px;
   height: 10px; 
 }
-
+upload-button, button {
+    border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
+    border-style: solid;
+    border-width: 1px;
+    padding: 1px 7px 2px;
+    
+}
 /* Footer Section */
 
 .aloha-footer{
