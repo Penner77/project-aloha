@@ -1,7 +1,8 @@
+/*
 *{
     box-sizing: border-box;
-    /* margin: 0; */
-   }
+     margin: 0; 
+   }*/
 
 /*.logo{
 position: absolute;
@@ -51,10 +52,6 @@ h3{
 
 }
 
-hr {
-    color: rgb(5, 5, 5);
-    size: 5px;
-}
 
 .site-nav ul {
     display: flex;
@@ -72,19 +69,33 @@ hr {
     padding: 0 .5% 0 .5%;
     
 }*/
- 
+
+.line-header{
+    order:-1;
+    width: 100%;
+    color: #d7d7d7;
+    margin-left: 6%;
+    margin-right:5%;
+    display: block;
+} 
+.line-header hr{
+    padding: 0;
+    margin: 0;
+
+}
+
 .primary-nav {
     order: 0;
     width: 100%;
 
 }
-
 .primary-nav a {
     color:#e2574c;
     font-weight: 500;
     text-decoration: none;
     display: inline-block;
     padding: 1.625 1 1 1rem;
+    margin-top: 0;
     
 }
 
@@ -159,18 +170,20 @@ p {
 
 }
 .handcrafted p{
-font-weight: lighter;
-line-height: 2rem;
+line-height: 3rem;
 text-align: center;
-margin: 0 7rem;
+margin: 0 2rem;
+font-weight: 100;
+font-size: 1.5rem;
 }
-.handcrafted h2{
+.handcrafted h3{
 
     text-align: center;
+    font-size: 3rem;
 }
 
-.handcrafted h2 span{
-    font-weight: lighter;
+.handcrafted h3 span{
+    font-weight: 100;
     font-style: italic;
 }
 .handcrafted{
@@ -185,10 +198,18 @@ margin: 0 7rem;
 }
 /* CLOTHING CATEGORY BOXES SECTION*/
 
+.product-categories{
+    box-sizing: border-box;
+    display: flex;
+
+}
+
 .clothing-categories {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+
+    
 }
 .clothing-categories a{
     text-decoration: none;
@@ -217,6 +238,7 @@ example if you had more divs nested it would only affect the children */
     width: 100vw;
     height: 50vw;
     flex-grow: 2;
+    box-sizing: border-box;
     /* margin-bottom: 1rem; */
   }
   .trends {
@@ -228,6 +250,7 @@ example if you had more divs nested it would only affect the children */
     width: 50vw;
     height: 50vw;
     flex-grow: 1;
+    box-sizing: border-box;
     /* margin-bottom: 1rem; */
   }
 
@@ -240,6 +263,7 @@ example if you had more divs nested it would only affect the children */
   width: 50vw;
   height: 50vw;
     flex-grow: 1;
+    box-sizing: border-box;
     /* margin-bottom: 1rem; */
 }
 .sale {
@@ -251,6 +275,7 @@ example if you had more divs nested it would only affect the children */
     width: 50vw;
     height: 50vw;
     flex-grow: 1;
+    box-sizing: border-box;
    
   }
   .bags {
@@ -262,6 +287,7 @@ example if you had more divs nested it would only affect the children */
     width: 50vw;
     height: 50vw;
     flex-grow: 1;
+    box-sizing: border-box;
     
   }
   .womens {
@@ -273,6 +299,7 @@ example if you had more divs nested it would only affect the children */
     height: 50vw;
     position: relative;
     flex-grow: 2;
+    box-sizing: border-box;
     /* margin-top: 1rem */
   }
   .most-loved h2{
@@ -447,6 +474,9 @@ footer{
     max-width: 1240px;
 
 }
+.line-header{
+    display: none;
+}
     .site-nav li {
     display: flex;
     flex-direction: row;
@@ -456,6 +486,14 @@ footer{
     padding: 0 .5% 0 .5%;*/
     
 }
+.handcrafted{
+    max-width: 600px;
+}
+.handcrafted p{
+    color: #969696;
+    font-weight: 500;
+    font-size: 1rem;
+    }
     .social span {
         display: inline-block;
     }
