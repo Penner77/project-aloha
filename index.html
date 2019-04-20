@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Apparel company selling the finest ready-to-travel clothing.">
     <meta name="keywords" content="fashion, clothing, women, men, sale, dress, bag, glasses">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1">*/-->
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="fonts.css">
@@ -73,36 +74,47 @@
         </div>
     </section>
 
-    <div class="container">
-        <h2><em>Most-Loved</em><b> Products</b></h2>
+    <h2><em>Most-Loved</em><b> Products</b></h2>
+    <div class="container main-carousel">
 
-        <li><a href="#"><img src="images/checked-stretch-dress.jpg" alt="red dress"></a>
+
+
+
+        <div class="carousel-cell">
+            <a href="#"><img src="images/checked-stretch-dress.jpg" alt="red dress"></a>
             <p>DRESSES</p>
             <h3>Checked Strech Dress</h3>
             <p>$129.00</p>
-        </li>
+        </div>
 
 
-        <a href="#"><img src="images/blue-hipster-backpack.jpg" alt="blue backpack"></a>
-        <p>BAGS</p>
-        <h3>Blue Hipster Backpack</h3>
-        <p>$69.00</p>
-
-
-
-
-
-        <a href="#"><img src="images/demin-overall-shorts.jpg" alt="denim overall shorts"></a>
-        <p>DENIM</p>
-        <h3>Denim Overall Shorts</h3>
-        <p>$89.00</p>
+        <div class="carousel-cell">
+            <a href="#"><img src="images/blue-hipster-backpack.jpg" alt="blue backpack"></a>
+            <p>BAGS</p>
+            <h3>Blue Hipster Backpack</h3>
+            <p>$69.00</p>
+        </div>
 
 
 
-        <a href="#"><img src="images/pink-dotted-dress.jpg" alt="denim overall shorts"></a>
-        <p>Pink Dotted Dress</p>
-        <h3>Dresses</h3>
-        <p>$99.00</p>
+
+
+        <div class="carousel-cell">
+            <a href="#"><img src="images/demin-overall-shorts.jpg" alt="denim overall shorts"></a>
+            <p>DENIM</p>
+            <h3>Denim Overall Shorts</h3>
+            <p>$89.00</p>
+        </div>
+
+
+
+        <div class="carousel-cell">
+            <a href="#"><img src="images/pink-dotted-dress.jpg" alt="denim overall shorts"></a>
+
+            <p>SALE</p>
+            <h3>Pink Dotted Dress</h3>
+            <p>$99.00</p>
+        </div>
 
     </div>
 
@@ -116,13 +128,14 @@
                 style tips from our blog. Unsubscribe anytime.</p>
 
             <!--THis is incorrect and has no button but I don't know how to make this yet-->
-        <div class="form-container">
-            <form action="">
-                <input type="email" value="Your Email">
-                <button class= btn >Subscribe</button>
-                <button type="submit" value=""></button>
-            </form>
-        </div>
+            <div class="form-container">
+                <form action="">
+                    <form action="">
+                        <input type="email" value="Your Email">
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </form>
+            </div>
         </div>
     </section>
 
@@ -152,4 +165,8 @@
         </div>
 
     </footer>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="main.js"></script>
 </body>
+
+</html>
