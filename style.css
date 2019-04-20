@@ -430,6 +430,31 @@ footer{
 }
  */
  @media screen and (min-width:600px){
+     .logo {
+         order:0;
+     }
+     .primary-nav{
+         order:0;
+     }
+     .cart{
+         order: 2;
+     }
+
+.header{
+    flex-flow: nowrap;
+    max-width: 1240px;
+    justify-content: space-evenly;
+
+}
+    .site-nav li {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    /* width: 100%; */
+    /*object-position: 1rem;
+    padding: 0 .5% 0 .5%;*/
+    
+}
     .social span {
         display: inline-block;
     }
