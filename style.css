@@ -18,12 +18,17 @@ html {
 img {
     max-width: 100%;
 }
+/*FONT SIZES Coverted from pixels to em */
 h1{
     font-size: 2.5em;
 }
 h2{
     font-size: 1.875em;
 }
+h3{
+    font-size: 1em;
+}
+
 .header{
     display: flex;
     flex-flow: wrap;
@@ -113,7 +118,7 @@ hr {
       }
      .banner_text{
          position: absolute;
-         top: 50%;
+         top: 52%;
          left: 50%;
          transform: translate(-50%, -50%);
     
@@ -122,9 +127,11 @@ hr {
 .banner h1{
     color: #FFFFFF;
     font-weight: lighter;
+    margin: 0em;
 
      }
-.banner h1 span{
+
+.banner h3 span{
     color:#FFFFFF;
     text-transform: uppercase;
 }
@@ -292,7 +299,7 @@ width:100%
     background-position: bottom;
     background-repeat: no-repeat;
     height: 60vw;
-    max-width: 1240px;
+    width: 100vw;
     
 
 }
@@ -434,11 +441,12 @@ footer{
     .carousel-cell{
 width: 25%;
     }
-    
+   
+    }
     body{
         font-family: "Raleway", Arial, sans-serif;
         font-weight: 500;
         font-size: 1rem;
     }
-    }
+    
  
