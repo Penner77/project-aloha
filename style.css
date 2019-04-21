@@ -532,6 +532,33 @@ footer{
     font-size: 1rem;
     }
 
+.mens {
+    width: 50vw;
+    height: 25vw;
+}
+
+.trends{
+    width: 25vw;
+    height: 25vw; 
+}
+
+.glasses{
+    width: 25vw;
+    height: 25vw; 
+}
+.sale{
+    width: 25vw;
+    height: 25vw; 
+}
+
+.bags{
+    width: 25vw;
+    height: 25vw; 
+}
+.womens{
+    width: 50vw;
+    height: 25vw; 
+}
 .signup {
 
     max-height: 300px;
@@ -549,19 +576,26 @@ footer{
     padding-bottom: 1em;
     
 }
-    .social span {
+.social span {
         display: inline-block;
     }
 
-    .social, .contact {
+.social, .contact {
         width: 50%;
         text-align: left;
     }
-    .carousel-cell{
-width: 25%;
-    }
 
+    .carousel-cell{
+width: 50%;
+    }
+ }
+
+/* Could not get the carousel to display correctly all four items at 1240px. It would shrink.*/
+   @media screen and (min-width:600px min-width:1240px){
     
-   
-    
- 
+    .carousel-cell{
+        width: 25%;
+
+    }
+}
+        
