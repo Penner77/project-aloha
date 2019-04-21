@@ -148,9 +148,9 @@ h3{
 }
 
 body{
-        font-family: "Raleway", Arial, sans-serif;
-        font-weight: 300;
-        font-size: 0.875rem;
+    font-family: "Raleway", Arial, sans-serif;
+    font-weight: 300;
+    font-size: 0.875rem;
         
     
 }
@@ -327,38 +327,43 @@ width:100%
     background-repeat: no-repeat;
     height: 60vw;
     width: 100vw;
-    
+    min-height: 320px;
+    text-align: center;
+    max-width: 1240px;
+
 
 }
+/*
 .signup-content{
     text-align: center;
     max-width: 1240px;
     
-}
-.signup-content_text{
+}*/
+.signup_text{
     position: absolute;
-    color:#2d2d2d;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.signup-content p{
+.signup p{
     color: #FFFFFF;
     line-height: 2em;
     padding-left: 1em;
     padding-right: 1em;
     padding-bottom: 1em;
+    font-size: 1.5em;
+    font-weight: 500;
 
     
 }
-.signup-content h2{
+.signup h2{
     color: #FFFFFF;
     text-emphasis-color: gray;
     font-size: 2.5em;
     padding-top: 1.5em;
 
 }
-.signup-content h2 span{
+.signup h2 span{
     font-weight: lighter;
     font-style: italic;
 }
@@ -404,15 +409,21 @@ upload-button, button {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    background-color: #242424
 
 
 
 }
 footer{
-    background-color: darkgray;
+    display: block;
+    padding-top: 1rm;
 }
-.contact_text {
+.contact p {
     color: #FFFFFF;
+}
+.contact p span{
+    color: #969696;
+
 }
 .social, .contact {
     width: 100%;
@@ -427,7 +438,12 @@ footer{
 }
 .social li{
     list-style: none;
+    color: #FFFFFF;
+    
 
+}
+.social li a{
+    color: #FFFFFF
 }
 /*
 .social li i{
@@ -469,6 +485,11 @@ footer{
         order: 2;
         width: 30%;
      }
+     body{
+        font-family: "Raleway", Arial, sans-serif;
+        font-weight: 500;
+        font-size: 1rem;
+    }
 
 .header{
     flex-flow: nowrap;
@@ -496,6 +517,23 @@ footer{
     font-weight: 500;
     font-size: 1rem;
     }
+
+.signup {
+
+    max-height: 300px;
+}
+
+.signup h2{
+
+    padding-top: 1em;
+}
+
+.signup p {
+
+    font-size: 1em;
+    max-width: 730px;
+    
+}
     .social span {
         display: inline-block;
     }
@@ -509,10 +547,6 @@ width: 25%;
     }
    
     }
-    body{
-        font-family: "Raleway", Arial, sans-serif;
-        font-weight: 500;
-        font-size: 1rem;
-    }
+   
     
  
