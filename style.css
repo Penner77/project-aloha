@@ -29,9 +29,7 @@ h2{
 h3{
     font-size: 1em;
 }
-a :hover{
-    color: #b64036;
-}
+
 .header{
     display: flex;
     flex-flow: wrap;
@@ -96,13 +94,11 @@ a :hover{
     font-weight: 500;
     text-decoration: none;
     display: inline-block;
-   /* padding: 1.625 1 1 1em;*/
     margin-top: 0;
    
 }
 
 .cart {
-    /*text-align: right;*/
     max-width: 100px;
   
   }
@@ -121,7 +117,6 @@ a :hover{
    
     text-align: center;
     height: 400px;
-    /*max-width: 1240px;*/
     position: relative;
      }
 .banner {
@@ -228,11 +223,7 @@ font-size: 1.5rem;
 }
 
 
-/* the selector > will only get the first level of chld elements and not go further
-example if you had more divs nested it would only affect the children */
-/* .clothing-categories > div {
-    border: 2px solid white;
-} */
+
 .clothing-categories > div {
     border: 2px solid #FFFFFF;
     display: flex;
@@ -249,7 +240,7 @@ example if you had more divs nested it would only affect the children */
     height: 50vw;
     flex-grow: 2;
     box-sizing: border-box;
-    /* margin-bottom: 1rem; */
+   
   }
   .trends {
     background: url(images/trends-category.jpg);
@@ -261,7 +252,7 @@ example if you had more divs nested it would only affect the children */
     height: 50vw;
     flex-grow: 1;
     box-sizing: border-box;
-    /* margin-bottom: 1rem; */
+    
   }
 
 .glasses {
@@ -274,7 +265,6 @@ example if you had more divs nested it would only affect the children */
   height: 50vw;
     flex-grow: 1;
     box-sizing: border-box;
-    /* margin-bottom: 1rem; */
 }
 .sale {
     background: url(images/sale-category.jpg);
@@ -403,12 +393,9 @@ input {
     width: 70%;;
     display: flex;
     flex-direction: column;
-  /*height: 10px; */
+
 }
-/*input submit {
-    max-width: 100px;
-    
-  }*/
+
 upload-button, button {
    
     background: #e2574c;
@@ -438,60 +425,40 @@ footer{
     display: block;
     padding-top: 1rm;
 }
-.contact p {
+.contact p{
     color: #FFFFFF;
+    line-height: .8em;
 }
 .contact p span{
     color: #969696;
 
 }
-.social, .contact {
+.social, .contact{
     width: 100%;
     text-align: center;
 }
 .social{
     max-width: 400px;
-    margin: 0 auto;
+    margin: 0, auto;
 }
-.social span {
-    display: none;
-}
+
 .social li{
     list-style: none;
     color: #FFFFFF;
-    
-
 }
 .social li a{
     color: #FFFFFF
 }
-/*
-.social li i{
-    padding-right: 0.25em;
-}*/
- 
+.social li a :hover{
+    color: #b64036;
+}
+ .social span{
+    display: none;
+}
 .contact{
     max-width: 400px;
     margin: 0 auto;  
 }
-
-/*
-.contact {
-    display: block;
-    background-color: black;
-    font-display: white;
-
-}
-.social li {
-    display: block;
-    background-color: black;
-    font-display: white;
-
-}*/
-/* .products{
-    display: inline;
-}
- */
 
  /*SCREEN re-sizing to make the website responsive*/
 
@@ -500,11 +467,14 @@ footer{
      .logo {
         order:0;
         width: 20%;
+        max-width: 170px;
      }
+
+     /* ACKKKK Sunday night and I must give up on trying to center this nav in bigger screens. I have moved flex, inline, search the internet and cannot get it. I didn't realize it was off until mid-day and been working on it eversince.*/
      .primary-nav{
         width: max-content;
         display: flex;
-        width: 67%;
+        width: 42%;
         text-align: center;
        
      }
@@ -512,6 +482,7 @@ footer{
         order: 2;
         width: 7%;
         max-width: 70px;
+        margin-right: 2px;
      }
      body{
         font-family: "Raleway", Arial, sans-serif;
@@ -524,9 +495,7 @@ footer{
     max-width: 1240px;
     text-align: center;
     max-width: 100%;
-    /*align-items: center;
-    max-width: 100%;
-    justify-content: space-between;8?
+    
 
 /* Question: I was unsure what the maximum screen width we should try to design for and I couldn't make this layout work without a value so did some research and chose 1900*/
 }
@@ -535,7 +504,7 @@ footer{
 
 }
 }
-    .site-nav li {
+.site-nav li {
     display: inline-block;
     flex-direction: row;
     flex-grow: 1;
@@ -544,9 +513,9 @@ footer{
     padding: 0 4% 0 4%;
     text-align: center;
     justify-content: center;
-    
-    
+
 }
+    
 .handcrafted{
     max-width: 600px;
 }
@@ -600,19 +569,32 @@ footer{
     padding-bottom: 1em;
     
 }
+.contact{
+    margin-top: 3em;
+}
 .social span {
         display: inline-block;
     }
 
-.social, .contact {
+.social{
         width: 50%;
         text-align: left;
+        margin-top: 3em;;
+        line-height: 3em;
     }
+
+.contact{
+        width: 50%;
+        text-align: left;
+        margin-top: 4em;
+        line-height: .8em;
+
+}
 
     .carousel-cell{
 width: 50%;
     }
- }
+ 
 
 /* Could not get the carousel to display correctly all four items at 1240px. It would shrink.*/
    @media screen and (min-width:1240px){
