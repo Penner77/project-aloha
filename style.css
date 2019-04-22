@@ -29,7 +29,9 @@ h2{
 h3{
     font-size: 1em;
 }
-
+a :hover{
+    color: #b64036;
+}
 .header{
     display: flex;
     flex-flow: wrap;
@@ -94,9 +96,9 @@ h3{
     font-weight: 500;
     text-decoration: none;
     display: inline-block;
-    padding: 1.625 1 1 1em;
+   /* padding: 1.625 1 1 1em;*/
     margin-top: 0;
-    
+   
 }
 
 .cart {
@@ -113,13 +115,13 @@ h3{
  
   }
 
-/* Banner Section */
+/* BANNER SECTION */
 
 .banner{
    
     text-align: center;
     height: 400px;
-    max-width: 1240px;
+    /*max-width: 1240px;*/
     position: relative;
      }
 .banner {
@@ -216,8 +218,15 @@ font-size: 1.5rem;
     text-decoration: none;
     color: #FFFFFF;
     text-transform: uppercase;
+    font-size: 1.55em;
 
 }
+/* HOVER over clothing categories, I couldn't make it work*/
+.mens a :hover{
+    color: #b64036
+
+}
+
 
 /* the selector > will only get the first level of chld elements and not go further
 example if you had more divs nested it would only affect the children */
@@ -305,7 +314,7 @@ example if you had more divs nested it would only affect the children */
   }
   .most-loved h2{
       text-align: center;
-      font-size: 3rem;
+      font-size: 3em;
   }
   .most-loved h2 span{
       font-weight: lighter;
@@ -388,8 +397,6 @@ form{
 input {
     -webkit-appearance: textfield;
     background-color: #FFFFFF;
-    -webkit-rtl-ordering: logical;
-    cursor: text;
     border-radius: 25px;
     padding: 10px; 
     max-width: 400px;
@@ -485,42 +492,59 @@ footer{
     display: inline;
 }
  */
+
+ /*SCREEN re-sizing to make the website responsive*/
+
+
  @media screen and (min-width:600px){
      .logo {
         order:0;
-        width: 30%
+        width: 20%;
      }
      .primary-nav{
         width: max-content;
         display: flex;
+        width: 67%;
+        text-align: center;
+       
      }
      .cart{
         order: 2;
-        width: 10%;
+        width: 7%;
         max-width: 70px;
      }
      body{
         font-family: "Raleway", Arial, sans-serif;
         font-weight: 500;
-        font-size: 1rem;
+        font-size: 1em;
     }
 
 .header{
     flex-flow: nowrap;
     max-width: 1240px;
-    align-items: center;
+    text-align: center;
+    max-width: 100%;
+    /*align-items: center;
+    max-width: 100%;
+    justify-content: space-between;8?
 
+/* Question: I was unsure what the maximum screen width we should try to design for and I couldn't make this layout work without a value so did some research and chose 1900*/
 }
 .line-header{
     display: none;
+
+}
 }
     .site-nav li {
-    display: flex;
+    display: inline-block;
     flex-direction: row;
     flex-grow: 1;
     width: 100%; 
-    /*object-position: 1rem;*/
+    object-position: 1em;
     padding: 0 4% 0 4%;
+    text-align: center;
+    justify-content: center;
+    
     
 }
 .handcrafted{
@@ -591,7 +615,7 @@ width: 50%;
  }
 
 /* Could not get the carousel to display correctly all four items at 1240px. It would shrink.*/
-   @media screen and (min-width:600px min-width:1240px){
+   @media screen and (min-width:1240px){
     
     .carousel-cell{
         width: 25%;
