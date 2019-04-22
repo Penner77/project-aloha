@@ -1,16 +1,4 @@
-/*
-*{
-    box-sizing: border-box;
-     margin: 0; 
-   }*/
 
-/*.logo{
-position: absolute;
-top: 0% */
-
-   /* width: 20%; /* scale the logo */
-    /*min-width: 200px; 
-    max-width: 200px;/* but make sure it's at least 200px */
   
 html {
         scroll-behavior: smooth;
@@ -60,15 +48,6 @@ h3{
     padding: 0 0 0 0;
 }
 
-/* .site-nav li {
-    display: flex;
-    flex-direction: row;
-    flex-grow: 1; */
-    /* width: 100%; */
-    /*object-position: 1rem;
-    padding: 0 .5% 0 .5%;
-    
-}*/
 
 .line-header{
     order:-1;
@@ -332,12 +311,7 @@ width:100%
 
 
 }
-/*
-.signup-content{
-    text-align: center;
-    max-width: 1240px;
-    
-}*/
+
 .signup_text{
     position: absolute;
     top: 50%;
@@ -416,7 +390,7 @@ upload-button, button {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-color: #242424
+    background-color: #242424;
 
 
 
@@ -424,6 +398,7 @@ upload-button, button {
 footer{
     display: block;
     padding-top: 1rm;
+
 }
 .contact p{
     color: #FFFFFF;
@@ -449,10 +424,11 @@ footer{
 .social li a{
     color: #FFFFFF
 }
+
 .social li a :hover{
     color: #b64036;
 }
- .social span{
+ .social span {
     display: none;
 }
 .contact{
@@ -490,109 +466,108 @@ footer{
         font-size: 1em;
     }
 
-.header{
-    flex-flow: nowrap;
-    max-width: 1240px;
-    text-align: center;
-    max-width: 100%;
+    .header{
+        flex-flow: nowrap;
+        max-width: 1240px;
+        text-align: center;
+        max-width: 100%;
     
 
 /* Question: I was unsure what the maximum screen width we should try to design for and I couldn't make this layout work without a value so did some research and chose 1900*/
-}
-.line-header{
-    display: none;
-
-}
-}
-.site-nav li {
-    display: inline-block;
-    flex-direction: row;
-    flex-grow: 1;
-    width: 100%; 
-    object-position: 1em;
-    padding: 0 4% 0 4%;
-    text-align: center;
-    justify-content: center;
-
-}
-    
-.handcrafted{
-    max-width: 600px;
-}
-.handcrafted p{
-    color: #969696;
-    font-weight: 500;
-    font-size: 1rem;
     }
+    .line-header{
+        display: none;
 
-.mens {
-    width: 50vw;
-    height: 25vw;
-}
-
-.trends{
-    width: 25vw;
-    height: 25vw; 
-}
-
-.glasses{
-    width: 25vw;
-    height: 25vw; 
-}
-.sale{
-    width: 25vw;
-    height: 25vw; 
-}
-
-.bags{
-    width: 25vw;
-    height: 25vw; 
-}
-.womens{
-    width: 50vw;
-    height: 25vw; 
-}
-.signup {
-
-    max-height: 300px;
-}
-
-.signup h2{
-
-    padding-top: .7em;
-}
-
-.signup p {
-
-    font-size: 1em;
-    max-width: 730px;
-    padding-bottom: 1em;
-    
-}
-.contact{
-    margin-top: 3em;
-}
-.social span {
+    }
+    .site-nav li {
         display: inline-block;
+        flex-direction: row;
+        flex-grow: 1;
+        width: 100%; 
+        object-position: 1em;
+        padding: 0 4% 0 4%;
+        text-align: center;
+        justify-content: center;
+
+    }
+    
+    .handcrafted{
+        max-width: 600px;
+    }
+    .handcrafted p{
+        color: #969696;
+        font-weight: 500;
+        font-size: 1rem;
     }
 
-.social{
+    .mens {
+        width: 50vw;
+        height: 25vw;
+    }
+
+    .trends{
+        width: 25vw;
+        height: 25vw; 
+    }
+
+    .glasses{
+        width: 25vw;
+        height: 25vw; 
+    }
+    .sale{
+        width: 25vw;
+        height: 25vw; 
+    }
+
+    .bags{
+        width: 25vw;
+        height: 25vw; 
+    }
+    .womens{
+        width: 50vw;
+        height: 25vw; 
+    }
+    .signup {
+
+        max-height: 300px;
+    }
+
+    signup h2{
+
+        padding-top: .7em;
+    }
+
+    .signup p {
+
+        font-size: 1em;
+        max-width: 730px;
+        padding-bottom: 1em;
+    
+    }
+    .contact{
+        margin-top: 3em;
+    }
+    .social span {
+        display: inline-block
+    }
+
+    .social {
         width: 50%;
         text-align: left;
         margin-top: 3em;;
         line-height: 3em;
     }
 
-.contact{
+        .contact{
         width: 50%;
         text-align: left;
         margin-top: 4em;
         line-height: .8em;
 
-}
+    }
 
-    .carousel-cell{
-width: 50%;
+        .carousel-cell{
+    width: 50%;
     }
  
 
